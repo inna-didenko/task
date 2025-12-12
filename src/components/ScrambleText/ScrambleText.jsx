@@ -41,6 +41,7 @@ export default function ScrambleText({ text }) {
     <span
       ref={ref}
       style={{
+        display: "inline-block",
         width: fixedWidth ? fixedWidth + "px" : "auto",
       }}
     >
