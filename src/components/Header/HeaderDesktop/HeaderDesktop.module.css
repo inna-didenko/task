@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+}
+
+.list li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list li a {
+  font-size: var(--label-14-font-size);
+  line-height: var(--label-140-line-height);
+  font-weight: var(--label-500-font-weight);
+  color: var(--colorSecond);
+
+  transition: opacity 0.2s;
+}
+
+.list li a:hover{
+  opacity: 0.7;
+}

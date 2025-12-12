@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+  backdrop-filter: blur(2px);
+}
+
+.gradient_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: var(--label-700-font-weight);
+  font-size: var(--label-18-font-size);
+  line-height: var(--label-130-line-height);
+
+  -webkit-text-fill-color: transparent;
+
+  background: var(--colorGradientText);
+  -webkit-background-clip: text;
+  background-clip: text;
+}

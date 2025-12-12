@@ -1,0 +1,12 @@
+.fogEffect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  box-shadow: 5px 5px 40px 30px rgb(71, 70, 70);
+  pointer-events: none;
+  border-radius: 40%;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}

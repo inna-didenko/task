@@ -1,0 +1,41 @@
+:root {
+  --colorBackground: #121114;
+  --colorHero: rgb(255, 255, 255);
+  --colorSecond: rgba(255, 255, 255, 0.4);
+  --colorGradientText: linear-gradient(
+    135deg,
+    #efebfd 0%,
+    #dbedff 12.13%,
+    #cef3ed 18.75%,
+    #e1ebfe 25.57%,
+    #fefefe 44.17%,
+    #e8e7fd 70.83%,
+    #c9e8fb 82.81%,
+    #c4efd1 100%
+  );
+
+  --label-14-font-size: 1.4rem;
+  --label-18-font-size: 1.8rem;
+  --label-84-font-size: 8.4rem;
+
+  --label-105-line-height: 105%;
+  --label-130-line-height: 130%;
+  --label-140-line-height: 140%;
+
+  --label-500-font-weight: 500;
+  --label-700-font-weight: 700;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; 
+}
+
+.background {
+  background-color: var(--colorBackground);
+}
