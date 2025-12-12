@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../../assets/img/logo.svg";
 import styles from "./HeaderDesktop.module.css";
 import AnimatedReveal from "../../AnimatedText/AnimatedReveal";
-
+import  ScrambleText  from "../../ScrambleText/ScrambleText";
 
 export const HeaderDesktop = () => {
   return (
@@ -12,22 +12,22 @@ export const HeaderDesktop = () => {
         <nav>
           <ul className={styles.list}>
             <li>
-              <NavLink to="/">Solutions</NavLink>
+              <NavLink to="/"><ScrambleText text="Solutions"/></NavLink>
             </li>
             <li>
-              <NavLink to="/technology">Technology</NavLink>
+              <NavLink to="/technology"><ScrambleText text="Technology"/></NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about" ><ScrambleText text="About"/></NavLink>
             </li>
             <li>
-              <NavLink to="/careers">Careers</NavLink>
+              <NavLink to="/careers"><ScrambleText text="Careers"/></NavLink>
             </li>
             <li>
-              <NavLink to="/resources">Resources</NavLink>
+              <NavLink to="/resources"><ScrambleText text="Resources"/></NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact"><ScrambleText text="Contact"/></NavLink>
             </li>
           </ul>
         </nav>
