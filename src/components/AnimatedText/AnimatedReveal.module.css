@@ -7,24 +7,31 @@
   color: var(--colorHero);
   margin: 7px 0 36px 0;
 
-  mask-image: radial-gradient(circle, black 0%, black 22%, transparent 70%);
+  mask-image: radial-gradient(ellipse at left, black 30%, transparent 70%);
   mask-position: center;
   mask-repeat: no-repeat;
 
   mask-size: 5% 5%;
+
+  -webkit-mask-image: radial-gradient(
+    ellipse at left,
+    black 30%,
+    transparent 70%
+  );
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 5% 5%;
 }
 
 .heroImg {
-  mask-image: radial-gradient(circle, black 0%, black 25%, transparent 70%);
+  mask-image: radial-gradient(ellipse at left, black 30%, transparent 70%);
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: 5% 5%;
 
   -webkit-mask-image: radial-gradient(
-    circle,
-    black 0%,
-    black 25%,
+    ellipse at left,
+    black 30%,
     transparent 70%
   );
   -webkit-mask-position: center;

@@ -23,15 +23,15 @@ export default function AnimatedReveal({ title = "", img = "" }) {
             maskSize: "5% 5%",
           },
           {
-            WebkitMaskSize: "400% 400%",
-            maskSize: "400% 400%",
+            WebkitMaskSize: "400% 320%",
+            maskSize: "400% 320%",
             ease: "power3.out",
-            duration: 7,
+            duration: img ? 6 : 9,
           }
         );
       },
     });
-  }, []);
+  }, [img]);
 
   return (
     <>
